@@ -1,9 +1,3 @@
-// const immCEO = <img src="img/wayne-barnett-founder-console.jpg" alt="immUno">;
-// const immEditor = <img src="img/angela-caroll-chief-editor.jpg" alt="immUno"></img>;
-// const immOM = <img src="img/walter-gordon-office-LockManager.jpg" alt="immUno"></img>;
-// const immSMM = <img src="img/angela-lopez-social-media-LockManager.jpg" alt="immUno"></img>;
-// const immDev = <img src="img/scott-estrada-developer.jpg" alt="immUno"></img>;
-// const immDesigner = <img src="img/barbara-ramos-graphic-designer.jpg" alt="immUno"></img>;
 const myDiv = document.querySelector(".div");
 const arrTeam = [
   personOne = {
@@ -45,7 +39,7 @@ for (let i = 0; i < arrTeam.length; i++) {
     myDiv.innerHTML += `
     <div>${arrTeam[i].name}</div>
     <div>${arrTeam[i].role}</div>
-    <img src=${arrTeam[i].img} alt="ImamgineCrew">
+    <img src=${arrTeam[i].img} alt="ImmagineCrew">
     `;
   }
   
